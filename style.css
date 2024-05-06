@@ -89,8 +89,18 @@ body {
 }
 
 .contador{
-	font-size: 20px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+
+}
+
+.contador-digito{
+	padding: 0px;
+	text-align:center;
+}
+
+.contador-digito-numero{
+	
 }
 
 @media screen and (min-width: 768px) /*estabelece um valor mínimo para a exibição */
